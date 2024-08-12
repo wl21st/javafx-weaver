@@ -12,8 +12,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class FxWeaverSpringBootStarterSampleApplication {
 
-    public static void main(String[] args) {
-        Application.launch(SpringbootJavaFxApplication.class, args);
-    }
+  public static void main(String[] args) {
+    Application.launch(SpringbootJavaFxApplication.class, args);
+  }
 
 }
