@@ -30,6 +30,7 @@ public class SpringbootJavaFxApplication extends Application {
   @Override
   public void stop() throws Exception {
     context.close();
+
     Platform.exit();
   }
 
